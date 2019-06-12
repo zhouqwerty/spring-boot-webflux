@@ -44,7 +44,7 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-			<!--去除tomcat，让服务以jetty作为容器（原因：tocmat不支持webflux）-->
+			<!--去除tomcat，让服务以jetty作为容器-->
 			<exclusions>
 				<exclusion>
 					<groupId>org.springframework.boot</groupId>
